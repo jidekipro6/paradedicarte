@@ -1,0 +1,50 @@
+.texto-1 {
+  background-image: url(../img/fondo2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 160px 0;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.parallax-box {
+  background-image: url(../img/fondo2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 160px 0;
+  margin-bottom: 100px;
+}
+.parallax-box h1,
+.parallax-box p {
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #ffffff;
+}
+.parallax-box h1 {
+  letter-spacing: 0.08em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  margin: 0 0 10px;
+}
+.parallax-box p {
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  margin: 0 0 80px;
+}
+@media (max-width: 768px) {
+  .parallax-box {
+    margin-bottom: 70px;
+    padding: 100px 0;
+  }
+  .parallax-box h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .parallax-box p {
+      text-align: center;
+    font-size: 20px;
+  }
+}
